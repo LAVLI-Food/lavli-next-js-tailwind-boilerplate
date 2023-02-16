@@ -1,0 +1,38 @@
+{
+  "name": "name_of_the_project",
+  "version": "0.1.0",
+  "description": "Next.js project: <Description>",
+  "contributors": [
+    "Name <mail@example.org> (https://www.example.org)"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "browserslist": "defaults, not ie <= 11",
+  "dependencies": {
+    "@headlessui/react": "^1.7.11",
+    "@heroicons/react": "^2.0.15",
+    "@next/font": "13.1.1",
+    "autoprefixer": "^10.4.13",
+    "clsx": "^1.2.1",
+    "next": "13.1.1",
+    "postcss": "^8.4.20",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.3",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-next": "^13.1.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  }
+}
