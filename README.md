@@ -45,7 +45,7 @@ A quick look at the top-level files and directories you'll see after install.
 
 4. **`.editorconfig`**: [EditorConfig](https://editorconfig.org) helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. This is our desired setting.
 
-5. **`.env.sample`**: If your project needs ENV vars, put the skeleton/name of your vars in here so people know what vars you need to set up in your `.env` files. **BUT NEVER EVER EXPOSE ANY CREDENTIALS HERE!**
+5. **`.env.sample`**: If your project needs ENV vars, put the skeleton/name of your vars in here so people know what vars you need to set up in your `.env` files. **BUT NEVER EVER EXPOSE ANY SECRETS HERE!**
 
 6. **`.eslintrc.json`**: ESLint configuration file.
 
