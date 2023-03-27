@@ -1,6 +1,6 @@
 # README
 
-This is a [Next.js](https://nextjs.org/) plus [Tailwind CSS](https://tailwindcss.com) boilerplate for LAVLI web projects. Although it has some LAVLI defaults and settings (e.g. colors), feel free to use it as a starting point for your project.
+This is a [Next.js](https://nextjs.org/) plus [Tailwind CSS](https://tailwindcss.com) boilerplate for LAVLI Food web projects. Although it has some LAVLI defaults and settings (e.g. colors), feel free to use it as a starting point for your project.
 
 ## Quick start
 
@@ -45,7 +45,7 @@ A quick look at the top-level files and directories you'll see after install.
 
 4. **`.editorconfig`**: [EditorConfig](https://editorconfig.org) helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. This is our desired setting.
 
-5. **`.env.sample`**: If your project needs ENV vars, put the skeleton/name of your vars in here so people know what vars you need to set up in your `.env` files. **BUT NEVER EVER EXPOSE ANY SECRETS HERE!**
+5. **`.env.sample`**: If your project needs ENV vars, put the skeleton/name of your vars in here so people know what vars they need to set up. **NEVER EVER EXPOSE ANY SECRETS HERE!** Run `cp .env.sample .env`, set your project ENV variables in your `.env` file and keep this file secret.
 
 6. **`.eslintrc.json`**: ESLint configuration file.
 
