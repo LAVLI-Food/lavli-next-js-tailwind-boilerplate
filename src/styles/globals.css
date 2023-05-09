@@ -24,9 +24,11 @@
   classes. Traditionally these would be classes like `card`, `btn`, `badge` —
   that kind of thing.
 */
-@layer components {}
+@layer components {
+}
 
 /*
   Add any of your own custom utility classes to Tailwind’s utilities layer.
 */
-@layer utilities {}
+@layer utilities {
+}
